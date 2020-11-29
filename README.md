@@ -1,10 +1,11 @@
 # desafio-backend
 
 
-# Instalando as dependências do servidor:
-$ yarn
+
 
 ```sh
+# Instalando as dependências do servidor:
+$ yarn
 # Instanciando o banco de dados:
 $ yarn typeorm migration:run
 # Executando a aplicação em modo de desenvolvimento:
