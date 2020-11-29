@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "baseUrl": "./src",
+    "allowJs": true,
+    "paths": {
+      "@controllers/*": [
+        "controllers/*"
+      ],
+      "@config/*": [
+        "config/*"
+      ],
+      "@entities/*": [
+        "entities/*"
+      ],
+      "@providers/*": [
+        "providers/*"
+      ],
+      "@repositories/*": [
+        "repositories/*"
+      ],
+      "@routes/*": [
+        "routes/*"
+      ],
+      "@services/*": [
+        "services/*"
+      ],
+      "@errors/*": [
+        "errors/*"
+      ],
+      "@middlewares/*": [
+        "middlewares/*"
+      ],
+      "@dtos/*": [
+        "dtos/*"
+      ],
+    },
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": [
+    "./prettier.config.js"
+  ]
+}
